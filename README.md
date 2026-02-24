@@ -19,3 +19,4 @@ Get into python environment (activate), open CMD and using pip:
 
 ![Demo](assets/JSON_structure.png)
 
+Back to Notion: https://www.notion.so/Project-2-30fdcb66205b80d3a523d99b8ea08b45?source=copy_link
