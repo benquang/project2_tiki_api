@@ -1,0 +1,19 @@
+[ERROR] index=32010, id=9803081, error='NoneType' object is not iterable
+[ERROR] index=32085, id=252912036, error=HTTP 404
+[ERROR] index=32134, id=185023881, error=HTTP 404
+[ERROR] index=32397, id=214594789, error=HTTP 404
+[ERROR] index=32489, id=213852001, error=HTTP 404
+[ERROR] index=32551, id=203958134, error=HTTP 404
+[ERROR] index=32561, id=151491563, error=HTTP 404
+[ERROR] index=32589, id=110251774, error=HTTP 404
+[ERROR] index=32631, id=205539677, error=HTTP 404
+[ERROR] index=32637, id=171624364, error=HTTP 404
+[ERROR] index=32646, id=252912173, error=HTTP 404
+[ERROR] index=32712, id=241883102, error=HTTP 404
+[ERROR] index=32718, id=191077472, error=HTTP 404
+[ERROR] index=32758, id=52105009, error=HTTP 404
+[ERROR] index=32796, id=129916750, error=HTTP 404
+[ERROR] index=32845, id=248904521, error=HTTP 404
+[ERROR] index=32848, id=197657092, error=HTTP 404
+[ERROR] index=32891, id=129916765, error=HTTP 404
+[ERROR] index=32983, id=171104261, error=HTTP 404
