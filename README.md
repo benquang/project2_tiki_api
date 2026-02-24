@@ -17,3 +17,5 @@ Get into python environment (activate), open CMD and using pip:
 }
 ```
 
+![Demo](assets/JSON_structure.png)
+
