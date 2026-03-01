@@ -3,7 +3,7 @@
 ## 📖 Overview
 A Python application for fetching data from Tiki API using asynchronous requests.
 
-## Project Structure
+## 📁 Project Structure
 ```
 GET API Tiki App/
 ├── src/
@@ -17,24 +17,24 @@ GET API Tiki App/
 │   ├── json_products/
 ```
 
-## Requirements
+## 📋 Requirements
 - Python 3.8+
 - `aiohttp` - Asynchronous HTTP client
 - `requests` - HTTP library
 - `bs4` (BeautifulSoup) - HTML and XML parsing
 - 
-## Installation
+## 💾 Installation
 ```bash
 pip install aiohttp requests bs4
 ```
 
-## Usage
+## 🚀 Usage
 Run the .py file for each method using for fetching Tiki product data (aiohttp & requests):
 ```bash
 python src/aiohttp_method.py
 ```
 
-## Output
+## 📊 Output
 Results are saved as JSON data in the `results/json_products` folder:
 ```json
         {
@@ -50,7 +50,7 @@ Results are saved as JSON data in the `results/json_products` folder:
         }
 ```
 
-## Features
+## ⭐ Features
 - Asynchronous API requests
 - JSON data export
 - Error handling and logging
