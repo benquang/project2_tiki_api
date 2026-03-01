@@ -84,9 +84,10 @@ python src/aiohttp_method.py
       - 'NoneType' object is not iterable: 8 (the image information is NULL, we can ignore this or check again to get them)
       ```
 
-- 
 ## ⭐ Features
 - Asynchronous API requests
 - JSON data export
 - Error handling and logging
-- https://www.notion.so/Project-2-30fdcb66205b80d3a523d99b8ea08b45
+- Detail project's description: https://www.notion.so/Project-2-30fdcb66205b80d3a523d99b8ea08b45
+
+## SUPERVISOR for Request Programming: https://www.notion.so/Supervisor-on-Ubuntu-316dcb66205b807da38aebe7549dbafb?source=copy_link
