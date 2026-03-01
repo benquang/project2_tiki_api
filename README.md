@@ -90,4 +90,5 @@ python src/aiohttp_method.py
 - Error handling and logging
 - Detail project's description: https://www.notion.so/Project-2-30fdcb66205b80d3a523d99b8ea08b45
 
-## SUPERVISOR for Request Programming: https://www.notion.so/Supervisor-on-Ubuntu-316dcb66205b807da38aebe7549dbafb?source=copy_link
+## SUPERVISOR for Request Programming
+- Check this link: https://www.notion.so/Supervisor-on-Ubuntu-316dcb66205b807da38aebe7549dbafb?source=copy_link
