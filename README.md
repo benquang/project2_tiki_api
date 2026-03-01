@@ -89,3 +89,4 @@ python src/aiohttp_method.py
 - Asynchronous API requests
 - JSON data export
 - Error handling and logging
+- https://www.notion.so/Project-2-30fdcb66205b80d3a523d99b8ea08b45
