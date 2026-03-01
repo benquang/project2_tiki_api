@@ -36,7 +36,7 @@ python src/aiohttp_method.py
 
 ## 📊 Output
    1. Results are saved as JSON data in the `results/json_products` folder:
-```json
+      ```json
         {
         "data": [
                 {
@@ -52,7 +52,7 @@ python src/aiohttp_method.py
                 }, {}
         ]
         }
-```
+      ```
 
    2. Execution time for each method:
       So we have a 200 STATUS response for getting product successfully, with ~100 products/2 minutes so the estimated execution time is about 66 hours.
@@ -62,7 +62,24 @@ python src/aiohttp_method.py
         [OK] GET JSON successfully for product 154155413
         [OK] GET JSON successfully for product 253117062
       ```
-   4. 
+
+      The exection time for aiohttp + asyncio method is about 90 minutes, this is numbers of ERROR products:
+      ```
+      Numbers of ERROR products: 9456
+      ERROR Catgeory:
+      - HTTP 404: 6638
+      - HTTP 429: 2810
+      - 'NoneType' object is not iterable: 8
+      ```
+   3. Execution again for 429 & 404 ERROR products and save to CSV list of product ids:
+
+       ```
+      Total of GET successfully products: 193242 
+      Numbers of ERROR products: 6758
+      - HTTP 404: 6750
+      - 'NoneType' object is not iterable: 8 (the image information is NULL, we can ignore this or check again to get them)
+      ```
+   5. 
 ** ERROR Category**:
 - HTTP 404: 6638
 - HTTP 429: 2810
