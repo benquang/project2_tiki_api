@@ -80,11 +80,7 @@ python src/aiohttp_method.py
       - HTTP 404: 6750
       - 'NoneType' object is not iterable: 8 (the image information is NULL, we can ignore this or check again to get them)
       ```
-   5. 
-** ERROR Category**:
-- HTTP 404: 6638
-- HTTP 429: 2810
-- 'NoneType' object is not iterable: 8
+
 - 
 ## ⭐ Features
 - Asynchronous API requests
