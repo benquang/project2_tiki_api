@@ -49,7 +49,7 @@ Results are saved as JSON data in the `results/json_products` folder:
                         "https://salt.tikicdn.com/ts/product/a6/f2/d0/bb744634f1ed0ae8a3e71bfe35a73c7c.jpg",
                         "https://salt.tikicdn.com/ts/product/f8/cd/15/c342466e4a390ff8c1da6cf43b7ba097.jpg"
                     ]
-                }, {},..., {}
+                }, {}
         ]
         }
 ```
