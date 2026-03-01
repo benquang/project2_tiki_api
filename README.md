@@ -9,12 +9,13 @@ GET API Tiki App/
 ├── src/
 │   ├── requests_method.py
 │   ├── aiohttp_method.py
-│   └── statistic_&_run_again.py
+│   └── statistic.ipynb
 ├── assets/
 │   └── [images, documentation]
 ├── results/
 │   ├── errors_batches/
 │   ├── json_products/
+│   ├── get_again_error_products/
 ```
 
 ## 📋 Requirements
@@ -72,7 +73,7 @@ python src/aiohttp_method.py
       - 'NoneType' object is not iterable: 8
       ```
    3. Execution again for 429 & 404 ERROR products and save to CSV list of product ids:
-
+      We retry for list of 429 ERROR products and get more sucessfully products (2698/2810 [OK]). For list of 404 ERROR products (with retry request 5 times and 1 second sleep time), we found that all of them are NOT FOUND product from Tiki API, so from 200000 unique product ids, we get:
        ```
       Total of GET successfully products: 193242 
       Numbers of ERROR products: 6758
