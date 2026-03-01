@@ -10,12 +10,15 @@ GET API Tiki App/
 │   ├── requests_method.py
 │   ├── aiohttp_method.py
 │   └── statistic.ipynb
+│   └── products-0-200000.csv
 ├── assets/
 │   └── [images, documentation]
 ├── results/
 │   ├── errors_batches/
 │   ├── json_products/
 │   ├── get_again_error_products/
+│   ├── all_products.csv
+│   ├── error_404_products.csv
 ```
 
 ## 📋 Requirements
@@ -23,7 +26,7 @@ GET API Tiki App/
 - `aiohttp` - Asynchronous HTTP client
 - `requests` - HTTP library
 - `bs4` (BeautifulSoup) - HTML and XML parsing
-- 
+  
 ## 💾 Installation
 ```bash
 pip install aiohttp requests bs4
