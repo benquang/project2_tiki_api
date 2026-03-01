@@ -22,7 +22,7 @@ Get into python environment (activate), open CMD and using pip:
 Back to Notion: https://www.notion.so/Project-2-30fdcb66205b80d3a523d99b8ea08b45?source=copy_link
 
 
-# GET API Tiki App
+# GET API Tiki App PJ
 
 ## Overview
 A Python application for fetching data from Tiki API using asynchronous requests.
@@ -31,11 +31,11 @@ A Python application for fetching data from Tiki API using asynchronous requests
 ```
 GET API Tiki App/
 ├── src/
-│   ├── main.py
-│   ├── api_client.py
-│   └── utils.py
+│   ├── requests_method.py
+│   ├── aiohttp_method.py
+│   └── statistic_&_run_again.py
 ├── assets/
-│   └── [configuration files, images, documentation]
+│   └── [images, documentation]
 ├── results/
 │   └── data.json
 └── notebook.ipynb
