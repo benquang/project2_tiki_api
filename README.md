@@ -35,7 +35,7 @@ python src/aiohttp_method.py
 ```
 
 ## 📊 Output
-Results are saved as JSON data in the `results/json_products` folder:
+   1. Results are saved as JSON data in the `results/json_products` folder:
 ```json
         {
         "data": [
@@ -53,6 +53,16 @@ Results are saved as JSON data in the `results/json_products` folder:
         ]
         }
 ```
+
+   2. Execution time for each method:
+      So we have a 200 STATUS response for getting product successfully, with ~100 products/2 minutes so the estimated execution time is about 66 hours.
+      ```
+        [OK] GET JSON successfully for product 1391347
+        [OK] GET JSON successfully for product 74897599
+        [OK] GET JSON successfully for product 154155413
+        [OK] GET JSON successfully for product 253117062
+      ```
+   4. 
 ** ERROR Category**:
 - HTTP 404: 6638
 - HTTP 429: 2810
