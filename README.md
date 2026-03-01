@@ -31,7 +31,6 @@ A Python application for fetching data from Tiki API using asynchronous requests
 ```
 GET API Tiki App/
 ├── src/
-│   ├── __init__.py
 │   ├── main.py
 │   ├── api_client.py
 │   └── utils.py
