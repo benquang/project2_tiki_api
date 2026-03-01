@@ -22,32 +22,54 @@ Get into python environment (activate), open CMD and using pip:
 Back to Notion: https://www.notion.so/Project-2-30fdcb66205b80d3a523d99b8ea08b45?source=copy_link
 
 
-# 📦 Tiki API Project
+# GET API Tiki App
 
-## Giới thiệu
-Dự án này được xây dựng nhằm **lấy dữ liệu từ API Tiki** bằng cách sử dụng:
-- [aiohttp](https://docs.aiohttp.org/) cho các request bất đồng bộ.
-- [requests](https://docs.python-requests.org/) cho các request đồng bộ.
-- Jupyter Notebook để phân tích và thử nghiệm.
-- Kết quả được lưu dưới dạng **JSON** trong thư mục `results`.
+## Overview
+A Python application for fetching data from Tiki API using asynchronous requests.
 
-## 📂 Cấu trúc thư mục
-├── src/          # Mã nguồn chính (Python scripts)
-├── assets/       # Hình ảnh, tài liệu minh họa
-├── results/      # Kết quả JSON sau khi gọi API
-├── notebooks/    # Jupyter Notebook scripts
-└── README.md     # Tài liệu dự án
-
-## 🚀 Cách chạy
-### 1. Cài đặt môi trường
-```bash
-pip install -r requirements.txt
+## Project Structure
 ```
-### 1. Chạy script python
-```bash
-python src/get_tiki_api.py
+GET API Tiki App/
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── api_client.py
+│   └── utils.py
+├── assets/
+│   └── [configuration files, images, documentation]
+├── results/
+│   └── data.json
+└── notebook.ipynb
 ```
 
-📊 Kết quả
-* Các file JSON được lưu trong thư mục results/.
-* Có thể dùng Notebook để phân tích dữ liệu (ví dụ: thống kê sản phẩm, giá cả, đánh giá).
+## Requirements
+- Python 3.8+
+- `aiohttp` - Asynchronous HTTP client
+- `requests` - HTTP library
+- `jupyter` - For notebook exploration
+
+## Installation
+```bash
+pip install aiohttp requests jupyter
+```
+
+## Usage
+Run the Jupyter notebook or execute the main script:
+```bash
+python src/main.py
+```
+
+## Output
+Results are saved as JSON data in the `results/` folder:
+```json
+{
+    "products": [],
+    "status": "success",
+    "timestamp": "2024-01-01T00:00:00Z"
+}
+```
+
+## Features
+- Asynchronous API requests
+- JSON data export
+- Error handling and logging
