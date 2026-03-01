@@ -53,7 +53,11 @@ Results are saved as JSON data in the `results/json_products` folder:
         ]
         }
 ```
-
+** ERROR Category**:
+- HTTP 404: 6638
+- HTTP 429: 2810
+- 'NoneType' object is not iterable: 8
+- 
 ## ⭐ Features
 - Asynchronous API requests
 - JSON data export
